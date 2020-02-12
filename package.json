@@ -1,0 +1,19 @@
+{
+  "name": "node-random-stuff",
+  "version": "1.0.0",
+  "description": "Generate random numbers, strings and more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo NO TEST FOR YOU BOI"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dada513/node-random-stuff.git"
+  },
+  "author": "dada513",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dada513/node-random-stuff/issues"
+  },
+  "homepage": "https://github.com/dada513/node-random-stuff#readme"
+}
