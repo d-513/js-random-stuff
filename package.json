@@ -4,7 +4,7 @@
   "description": "Generate random numbers, strings and more",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./src/ --fix && eslint ./src/",
+    "lint": "eslint ./src/",
     "test": "cd test && node main.test.js",
     "doc": "jsdoc2md ./src/index.js"
   },
