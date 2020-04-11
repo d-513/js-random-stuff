@@ -2,7 +2,7 @@
   "name": "js-random-stuff",
   "version": "1.0.0",
   "description": "Generate random numbers, strings and more",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint ./src/",
     "test": "cd test && node main.test.js",
