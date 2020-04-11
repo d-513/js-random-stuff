@@ -1,19 +1,25 @@
 {
-  "name": "node-random-stuff",
+  "name": "js-random-stuff",
   "version": "1.0.0",
   "description": "Generate random numbers, strings and more",
   "main": "index.js",
   "scripts": {
-    "test": "echo NO TEST FOR YOU BOI"
+    "lint": "eslint ./src/ --fix && eslint ./src/",
+    "test": "cd test && node main.test.js",
+    "doc": "jsdoc2md ./src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dada513/node-random-stuff.git"
+    "url": "git+https://github.com/dada513/js-random-stuff.git"
   },
   "author": "dada513",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dada513/node-random-stuff/issues"
+    "url": "https://github.com/dada513/js-random-stuff/issues"
   },
-  "homepage": "https://github.com/dada513/node-random-stuff#readme"
+  "homepage": "https://github.com/dada513/js-random-stuff#readme",
+  "devDependencies": {
+    "eslint": "latest",
+    "jsdoc-to-markdown": "latest"
+  }
 }

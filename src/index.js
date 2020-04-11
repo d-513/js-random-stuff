@@ -1,4 +1,4 @@
-// node-random-stuff
+// js-random-stuff
 
 /**
  * Generate a random number.
